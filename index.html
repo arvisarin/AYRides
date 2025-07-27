@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AY Rides - Tucson Student Ride Service</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #f7f8fc, #e0f7fa);
+      color: #212121;
+    }
+    header {
+      background: linear-gradient(to right, #004d40, #00796b);
+      color: white;
+      padding: 2em 1em;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #e0f2f1;
+      padding: 1em 0;
+    }
+    nav a {
+      margin: 0 1.5em;
+      text-decoration: none;
+      color: #00695c;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 4em 1em;
+      background: linear-gradient(to right, #ffffff, #e0f7fa);
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 0.4em;
+    }
+    .hero p {
+      font-size: 1.25em;
+    }
+    .section {
+      padding: 2.5em;
+      background-color: white;
+      margin: 2em auto;
+      max-width: 900px;
+      border-radius: 12px;
+      box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+    }
+    .section h2 {
+      color: #00796b;
+    }
+    footer {
+      text-align: center;
+      background: linear-gradient(to right, #004d40, #00796b);
+      color: white;
+      padding: 1.5em;
+      margin-top: 2em;
+    }
+    button {
+      background-color: #00796b;
+      color: white;
+      border: none;
+      padding: 1em 2em;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1em;
+      margin-top: 1em;
+    }
+    button:hover {
+      background-color: #004d40;
+    }
+    a.payment-link {
+      color: #004d40;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    a.payment-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AY Rides</h1>
+    <p>Arvi & Yuvi's Private College Ride Service in Tucson, AZ</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+    <a href="#payment">Payment</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Need a Ride? We've Got You.</h1>
+    <p>Flat-rate, student-run rides around Tucson & to PHX Airport 24/7.</p>
+  </section>
+
+  <section id="services" class="section">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Rides from Tucson to Phoenix Sky Harbor Airport</li>
+      <li>Pickups & Drop-offs at Tucson International Airport (TUS)</li>
+      <li>Local rides around University of Arizona, Downtown, & Tempe</li>
+      <li>Flat rates – no surge pricing ever</li>
+      <li>Available 24/7 with flexible scheduling</li>
+    </ul>
+  </section>
+
+  <section id="pricing" class="section">
+    <h2>Pricing</h2>
+    <ul>
+      <li><strong>Tucson to Phoenix Sky Harbor Airport (PHX):</strong> $130 flat rate</li>
+      <li><strong>Local Rides:</strong> Pricing varies by city — call or text us for details</li>
+    </ul>
+    <p>All prices are fixed with no surge charges. Affordable and reliable student transportation you can count on!</p>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About AY Rides</h2>
+    <p>We’re Arvi and Yuvi – two University of Arizona students offering safe, affordable, and reliable private rides in and around Tucson. We know the struggles of getting to the airport or making it around town without breaking the bank, so we created AY Rides just for students like you. We're always on time, always affordable, and always down to drive.</p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>📞 Arvi Sarin: <strong>760-750-2690</strong></p>
+    <p>📞 Yuvi Minhas: <strong>480-531-3426</strong></p>
+    <p>📧 Email: <em>sarinminhas@gmail.com</em></p>
+    <p>📍 Based in Tucson, AZ – Serving U of A and surrounding areas</p>
+  </section>
+
+  <section id="payment" class="section">
+    <h2>Pay for Your Ride</h2>
+    <p>We accept Venmo, Zelle, and CashApp. Just confirm your ride with us, then pay securely through one of the methods below:</p>
+    <ul>
+      <li><strong>Venmo:</strong> <a class="payment-link" href="https://venmo.com/y_minhas29" target="_blank">@y_minhas29</a></li>
+      <li><strong>Zelle:</strong> 760-750-2690</li>
+      <li><strong>CashApp:</strong> <a class="payment-link" href="https://cash.app/$aravsarin" target="_blank">$aravsarin</a></li>
+    </ul>
+    <p>Make sure to include your name and pickup time in the payment note!</p>
+    <button onclick="alert('Please contact us to confirm your ride before paying.')">Pay Now</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AY Rides | Student-Owned. Tucson-Grown.</p>
+  </footer>
+</body>
+</html>
